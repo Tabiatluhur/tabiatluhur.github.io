@@ -11,8 +11,10 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
     <!-- Akhir BootStraps Icons -->
-
-    <!-- My CSS -->
+<!-- AOS -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<!-- Akhir AOS -->
+<!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
     <title>My Portfolio | Farhan Purnama Putra</title>
@@ -49,8 +51,8 @@
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
       <img src="img/Farhan Purnama Putra.jpg" alt="Farhan Purnama Putra" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Farhan Purnama Putra</h1>
-      <p class="lead">Profesional | Religius</p>
+      <h1 data-aos="zoom-in" data-aos-duration="2000" class="display-4">Farhan Purnama Putra</h1>
+      <p data-aos="fade-up" data-aos-duration="5000" data-aos-delay="1000" class="lead">Profesional | Religius</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -71,13 +73,13 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div data-aos="fade-right" data-aos-duration="2000" class="col-md-4">
             <p>
               Assalamualaikum teman-teman semua semoga kita selalu ditetapkan dalam Rahmat serta Hidayah-NYA. Sedikit berkenalan nama saya Farhan Purnama Putra, saya berasal dari Kota Serang, Banten. Seorang pria dengan tahun kelahiran
               2002, teman-teman bisa memanggil saya dengan panggilan "farhan", semoga kita bisa berkawan baik <i class="bi bi-emoji-smile-upside-down">.</i>
             </p>
           </div>
-          <div class="col-md-4">
+          <div data-aos="fade-left" data-aos-duration="2000" class="col-md-4">
             <p>
               Jadi gini, halaman ini dibuat agar kita bisa lebih mudah berkenalan, so... gak usah canggung yak, santuy ae:v, owh iya BTW gua sendiri sekarang berkuliah di Universitas AMIKOM Yogyakarta dengan jurusan S1 Informatika, gua
               sendiri emang seneng aja gitu, kalo belajar tentang design grafis, coding, dan lain-lain yang belum bisa gua sebutin disini, wkwkwk:v, udah yah gitu aja.
@@ -106,7 +108,7 @@
         </div>
         <div class="row">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div data-aos="fade-right" data-aos-duration="2000" class="card">
               <img src="img/Projects/1.jpg" class="card-img-top" alt="Project 1" />
               <div class="card-body">
                 <p class="card-text">
@@ -116,7 +118,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div data-aos="fade-in" data-aos-duration="2000" class="card">
               <img src="img/Projects/2.jpg" class="card-img-top" alt="Project 2" />
               <div class="card-body">
                 <p class="card-text">
@@ -127,7 +129,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div data-aos="fade-left" data-aos-duration="2000" class="card">
               <img src="img/Projects/3.jpg" class="card-img-top" alt="Project 3" />
               <div class="card-body">
                 <p class="card-text">
@@ -206,6 +208,14 @@
 
     <!-- Akhir Footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true
+      });
+    </script>
+  
 
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbyMe5pH-zTOu2TFIKizzwcLS33icpYjN3Kk6SPZxdPOL4Yd-yjelKYhXaKuIk7OAB_DPw/exec";
